@@ -1,0 +1,34 @@
+{
+    "expo": {
+        "name": "Tasker",
+        "slug": "tasker",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "splash": {
+            "image": "./assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "updates": {
+            "fallbackToCacheTimeout": 0
+        },
+        "assetBundlePatterns": [
+            "**/*"
+        ],
+        "ios": {
+            "supportsTablet": true
+        },
+        "android": {
+            "enableDangerousExperimentalLeanBuilds": true,
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#f7f5f5"
+            },
+            "package": "com.tuhin.tasker"
+        },
+        "web": {
+            "favicon": "./assets/favicon.png"
+        }
+    }
+}
